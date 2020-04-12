@@ -26,7 +26,4 @@ System.out.println("Ingrese el primer numero");
  System.out.println("El resultado es " + resultado.toString());    
  }
  } 
-//Comentario de prueba #2
-//Comentario prueba #3
-//branch Master
-//con UN error//lo SOLUCIONE
+//Branch gastonsantos
