@@ -5,6 +5,30 @@ Integer a;
 Integer b;
 Integer opcion;
 Integer resultado;
+
+	private Ahorcado (Integer a,Integer b){
+		this.a = a;
+		this.b = b;		
+	}
+	
+	private Integer suma() {
+		return a + b;
+		
+	}
+	private Integer resta() {
+		return a - b;
+		
+	}
+	private Integer multiplica() {
+		return a * b;
+		
+	}
+	private Integer divide() {
+		return a/b;
+		
+	}
+
+
 do{ 
 System.out.println("Ingrese su operación /n 1 para sumar /n 2 para 
 restar /n 3 para multiplicar /n 4 para dividir"); 
@@ -15,19 +39,20 @@ System.out.println("Ingrese el primer numero");
  System.out.println("Ingrese el segundo numero");
  a = teclado.next(); 
 
+Ahorcado a1 = new Ahorcado(a,b);
 
 switch (opcion){
 		case 2: 
-			resultado = a + b;
+			resultado = a1.suma();
 			break;
 		case 3: 
-			resultado = a - b;
+			resultado = a1.resta();
 			break;
 		case 4: 
-			resultado = a * b ;
+			resultado = a1.multiplica();
 			break;
 		case 1:
-			resultado = a / b;
+			resultado = a1.divide();
 			break;
 			
 	           default: 
