@@ -42,16 +42,16 @@ System.out.println("Ingrese el primer numero");
 Ahorcado a1 = new Ahorcado(a,b);
 
 switch (opcion){
-		case 2: 
+		case 1: 
 			resultado = a1.suma();
 			break;
-		case 3: 
+		case 2: 
 			resultado = a1.resta();
 			break;
-		case 4: 
+		case 3: 
 			resultado = a1.multiplica();
 			break;
-		case 1:
+		case 4:
 			resultado = a1.divide();
 			break;
 			
